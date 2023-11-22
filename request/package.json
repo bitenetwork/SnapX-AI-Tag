@@ -1,0 +1,20 @@
+{
+  "name": "radian-tag-server",
+  "version": "1.0.0",
+  "description": "Server for Tagging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-rekognition": "^3.53.0",
+    "dotenv": "^16.0.0",
+    "ethereumjs-util": "^7.1.4",
+    "ethers": "^5.5.4",
+    "node-fetch": "^2",
+    "yarn": "^1.22.17",
+    "body-parser":"^1.20.0"
+  }
+}
